@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+.Heading {
+    background-color: rgba(63, 65, 67, 1);
+}
+
+
+.logo{
+    margin-top: 15px;
+    margin-left: 45px;
+}
+.sub{
+
+    color: rgba(249, 249, 249, 1);
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 185px;
+    margin-top: 0px;
+}

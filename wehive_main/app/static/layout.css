@@ -1,21 +1,84 @@
 * {
+
     box-sizing: border-box;
 }
 
-.Heading {
-    background-color: rgba(63, 65, 67, 1);
+body{
+
+    background-color: rgba(255, 255, 0, 0.4);
 }
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 20px 1fr 1fr ;
+    background-color: rgba(63, 65, 67, 1);
+    height: 165px;
+    max-width: 780px;
+    margin: 0 auto;
+}
+
 
 
 .logo{
-    margin-top: 15px;
-    margin-left: 45px;
+    margin-top: 10px;
+    padding-left: 30px;
 }
-.sub{
 
-    color: rgba(249, 249, 249, 1);
+.sub-1{
+    margin-top: 30px;
+    margin-left: 30px;
+    padding-top: 30px;
+    padding-left: 90px;
+    color: white;
+    font-size: 18px;
+    border-left: yellow solid;
+    width: 300px;
+    height: 100px;
+}
+.sub-2{
+
+    padding-left: 260px;
+    font-size: 20px;
+    color: white;
+}
+.join{
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    color: yellow;
+    margin-left: 260px;
     font-size: 25px;
-    font-weight: 400;
-    margin-left: 185px;
-    margin-top: 0px;
+    
+}
+
+.linuxchix{
+
+    color: yellow;
+}
+
+.container-2{
+
+    display: grid;
+    background-color: rgba(255, 255, 255, 1);
+    height: 165px;
+    max-width: 780px;
+    margin: 0 auto;
+    grid-template-columns: 1fr ;
+    /*border-left: 2px rgba(63, 65, 67, 1) dashed;*/
+
+}
+
+.sub-container-2{
+
+    display: grid;
+    margin: 20px;
+    border: 2px rgba(63, 65, 67, 1) dashed ;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content-1{
+
+    padding: 10px 30px;
 }

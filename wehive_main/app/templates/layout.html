@@ -5,9 +5,22 @@
         <link rel="stylesheet" href="{{url_for('static', filename='layout.css')}}">
     </head>
     <body>
-        <div class="Heading">
-            <img class="logo" src={{url_for('static',filename='img/WEHIVE.png')}}><!--<span class="wehive_tag">Wehive</span>-->
+        <div class="container">
+            <div class="item logo"><img class="logo" src={{url_for('static',filename='img/WEHIVE.png')}}></div>
+            <div class="item sub-1">Brought to you by <span class="linuxchix"><br>LinuxChix</span></div>
+            <div class="item sub-2">Let's Talk Tech</div>
+            <div class="item join">Join Now</div>
+        </div>
+        <!--<div class="container-2">
+            <div class="sub-container-2">
+                <div class="content-1">This Site is Under construction</div>
+            </div>
+        </div>-->
+        
+        <!--<div class="Heading">
+            <img class="logo" src={{url_for('static',filename='img/WEHIVE.png')}}><span class="wehive_tag">Wehive</span>
             <br><span class="sub">Let's Talk Tech</span>
-      </div>
+      </div>-->
     </body>
 </html>
+

@@ -13,12 +13,12 @@ body{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px 20px 1fr 1fr ;
     background-color: rgba(63, 65, 67, 1);
+    border: 2px rgba(255,255,0,1) dashed;
+    border-radius: 15px;
     height: 165px;
     max-width: 780px;
     margin: 0 auto;
 }
-
-
 
 .logo{
     margin-top: 10px;
@@ -32,14 +32,18 @@ body{
     padding-left: 90px;
     color: white;
     font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     border-left: yellow solid;
     width: 300px;
     height: 100px;
 }
 .sub-2{
 
-    padding-left: 260px;
+    padding-left: 200px;
     font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     color: white;
 }
 .join{
@@ -48,8 +52,10 @@ body{
     grid-row-end: 4;
     grid-column-start: 2;
     color: yellow;
-    margin-left: 260px;
+    margin-left: 200px;
     font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     
 }
 
@@ -58,27 +64,147 @@ body{
     color: yellow;
 }
 
+
+                                /* intro page css */
+
 .container-2{
 
     display: grid;
     background-color: rgba(255, 255, 255, 1);
-    height: 165px;
     max-width: 780px;
     margin: 0 auto;
     grid-template-columns: 1fr ;
+    grid-template-rows: 1fr;
+    border-radius: 15px;
     /*border-left: 2px rgba(63, 65, 67, 1) dashed;*/
 
 }
 
-.sub-container-2{
+.sub-container-1{
 
     display: grid;
     margin: 20px;
-    border: 2px rgba(63, 65, 67, 1) dashed ;
+    border: 2px rgba(63, 65, 67, 0.5) dashed ;
+    border-radius: 15px;
     grid-template-columns: 1fr 1fr;
 }
 
 .content-1{
 
-    padding: 10px 30px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 20px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 140px;
 }
+
+.sub-content-1{
+
+    color: rgb(87, 38, 35, 0.85);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.wehive{
+
+    font-size: 35px;
+}
+.content-2{
+
+    grid-row-start: 2;
+    grid-column-start: 2;
+    margin-top: 60px;
+    padding: 0px 0px 0px 80px ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    
+}
+
+.Participate{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Participate-list{
+
+    padding: 0%;
+}
+
+.bullets{
+
+    color: rgb(87, 38, 35, 0.85);
+    font-size: 20px
+}
+
+.list-content{
+
+    font-weight: bold;
+    font-size: 18px
+}
+.content-5{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 155px;
+    border-radius: 15px;
+    background-color: rgba(180, 192, 212, 0.5);
+    
+}
+
+.footer{
+
+    grid-column-start:2;
+    padding-top: 10px;
+    padding-left: 55px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer-content{
+
+    padding-top: 5px;
+}
+
+.link-1{
+
+    padding-left: 25px;
+    margin-top: 5px;
+}
+
+.link:link {
+
+    text-decoration: none;
+}
+
+.link:visited{
+
+    color: black;
+}
+
+.link:hover{
+
+    color: rgb(137, 137, 9) ;
+}
+.content-4{
+
+    /*grid-row-start: 2;*/
+    grid-row-start: 3;
+    /*grid-row-end: 3;*/
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.lc-logo{
+
+    /*padding-top: 200px;
+    padding-left: 70px;*/
+    padding-left: 100px;
+}
+
+
+                                    /* intro page css ends */

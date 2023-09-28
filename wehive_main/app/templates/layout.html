@@ -14,25 +14,8 @@
 
         <div class="container-2">
             <div class="sub-container-1">
-                <div class="content-1"><b><span class="wehive">Wehive</span> is in town!</b><br><br>
-                    <span class="sub-content-1">We're all about connecting and empowering women across every field.<br><br> Let's kickstart this journey with a bang! 
-                        By diving into a world of inspiration, connection, and big dreams - all fueled by some seriously fantastic chats!
-                    </span>
-                </div>
-                <div class="content-2">
-                    <div class="content-head">
-                        <span class="Participate"><b>Get Started!</b></span>
-                    </div>
-                    <ul class="Participate-list">
-                        <li><b class="bullets">Room Rally:</b> <br><span class="list-content">Dive into the rooms!</span></li><br>
-                        <li><b class="bullets">Detective Mode:</b> <br><span class="list-content">Get to know your members.</span></li><br>
-                        <li><b class="bullets">Chat 'n' Learn:</b> <br><span class="list-content">Exchange knowledge!</span></li><br>
-                        <li><b class="bullets">Common Ground:</b> <br><span class="list-content">Discover shared passions!</span></li><br>
-                        <li><b class="bullets">Quiz Time:</b> <br><span class="list-content">Ask, share, learn!</span></li><br>
-                        <li><b class="bullets">Share Wisdom:</b> <br><span class="list-content">Be a beacon!</span></li><br>
-                        <li><b class="bullets">Learn & Grow:</b> <br><span class="list-content">Seize every opportunity!</span></li>
-                    </ul>
-                </div>
+                
+                {% block content %}{% endblock %}
                 
                 <div class="content-5"> <!--Footer-->
                     <div class="footer">
@@ -40,19 +23,15 @@
                         <div class="link-1"><a class="footer-content link" href="https://github.com/linuxchix-dev"><b>Github</b></a></div>
                         <div class="link-1"><a class="footer-content link" href="https://github.com/linuxchix-dev"><b>FAQ</b></a></div>
                     </div>
-                </div><!--footer ends-->
+                </div>
 
                 <div class="content-4">
                     <div class="lc-logo">
                         <a href="https://www.linuxchix.org/"><img src={{url_for('static',filename='img/linuxchix.png')}} alt="LinuxChix logo"></a>
                     </div>
-                </div>
+                </div>  <!--footer ends-->
             </div>            
         </div>
         
-        <!--<div class="Heading">
-            <img class="logo" src={{url_for('static',filename='img/WEHIVE.png')}}><span class="wehive_tag">Wehive</span>
-            <br><span class="sub">Let's Talk Tech</span>
-      </div>-->
     </body>
 </html>

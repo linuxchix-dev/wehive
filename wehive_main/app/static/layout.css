@@ -70,6 +70,11 @@ body{
     color: yellow;
 }
 
+.join_link:hover{
+
+    color: white;
+}
+
 .linuxchix{
 
     color: yellow;

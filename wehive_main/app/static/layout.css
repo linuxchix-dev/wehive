@@ -231,6 +231,16 @@ body{
 
     margin-top: 50px;
     margin-left: 250px;
+    max-width: calc(100% - 250px); /* This ensures the container doesn't exceed the width of the viewport minus 250px */
+    box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+}
+
+@media screen and (max-width: 670px) {
+    .sign_up {
+        margin-top: 50px;
+        margin-left: 50px;
+        max-width: calc(100% - 10px); /* Adjust margin and max-width for smaller screens */
+    }
 }

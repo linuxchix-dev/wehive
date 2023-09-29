@@ -231,6 +231,7 @@ body{
 
     margin-top: 50px;
     margin-left: 150px;
+    margin-bottom: 60px;
     max-width: calc(100% - 150px); /* This ensures the container doesn't exceed the width of the viewport minus 250px */
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;

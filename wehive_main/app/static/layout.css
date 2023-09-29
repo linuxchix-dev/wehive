@@ -224,3 +224,13 @@ body{
 
 
                                     /* intro page css ends */
+
+                                    /* SIGN  UP css starts */
+
+.sign_up{
+
+    margin-top: 50px;
+    margin-left: 250px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

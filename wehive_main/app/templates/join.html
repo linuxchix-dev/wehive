@@ -4,9 +4,9 @@
 <div class="sign_up">
     <p>Sign Up</p>
     <form action="" method="post" novalidate>
-        {{ form.hidden_tag }}
+        {{ form.hidden_tag() }}
         <p>
-            {{ form.email,label }}<br>
+            {{ form.email.label }}<br>
             {{ form.email() }}
         </p>
         

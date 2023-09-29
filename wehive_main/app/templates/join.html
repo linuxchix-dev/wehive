@@ -7,17 +7,22 @@
         {{ form.hidden_tag }}
         <p>
             {{ form.email,label }}<br>
-            {{ form.email }}
+            {{ form.email() }}
         </p>
         
         <p>
             {{ form.username.label }}<br>
-            {{ form.username }}
+            {{ form.username() }}
         </p>
         <p>
-            {{ form.password.label }}<br>
-            {{ form.password }}
+            {{ form.new_password.label }}<br>
+            {{ form.new_password() }}
         </p>
+        <p>
+            {{  form.confirm_password.label}}<br>
+            {{ form.confirm_password()}}
+        </p>
+        <p>{{ form.submit() }}</p>
     </form>
 </div>
 {% endblock %}

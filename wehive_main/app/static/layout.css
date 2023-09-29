@@ -56,7 +56,18 @@ body{
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    /* padding-top: 20px; */
     
+}
+
+.join_link:link{
+
+    text-decoration: none;
+}
+
+.join_link:visited{
+
+    color: yellow;
 }
 
 .linuxchix{

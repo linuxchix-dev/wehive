@@ -233,6 +233,7 @@ body{
     grid-column-start: 1;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+    font-size: 20px;
     color: brown;
     
 }

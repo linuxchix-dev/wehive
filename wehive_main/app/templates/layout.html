@@ -13,7 +13,17 @@
             <div class="item sub-2">Let's Buzz</div>
             <div class="item join"><a href="/join" class="join_link">Let's Talk</a></div>
         </div> <!--header ends-->
-
+        {% with messages = get_flashed_messages() %}
+                {% if messages %}
+                <div class="flash">
+                    <ul>
+                        {% for message in messages %}
+                        <li>{{message}}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endif %}
+            {% endwith %}
         <div class="container-2">
             <div class="sub-container-1">
                 

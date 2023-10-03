@@ -67,7 +67,7 @@ body{
 
 .join_link:visited{
 
-    color: yellow;
+    color: rgb(255, 255, 0);
 }
 
 .join_link:hover{
@@ -284,3 +284,20 @@ body{
 
     color: red;
 }
+
+.login_instead{
+
+    margin-top: 180px;
+    margin-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(87, 38, 35, 0.85);
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.login-link{
+
+    
+}
+

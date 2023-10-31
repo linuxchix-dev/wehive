@@ -8,7 +8,7 @@ app.config.from_object(Config)
 db = SQLAlchemy(app)  #database instance#
 migrate = Migrate(app, db) #database migration instance#
 
-from app import routes, models     #this is to avoid circular imports
+from app import routes, models     #this is to avoid circular imports, models is a module that defines the structure of the database
 
 '''this __init__.py acts as the starting point of the application, Flask class
 which is imported from flask, the instance of the Flask class is our WSI application
